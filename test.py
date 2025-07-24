@@ -15,20 +15,18 @@ from tqdm import tqdm
 import torch.nn as nn
 def parse_args_and_config():
     parser = argparse.ArgumentParser(description='Evaluate Wavelet-Based Diffusion Model')
-    parser.add_argument("--config", default='/home/ubuntu/Low-df/low-df/ACMMM简洁文件copy/configs/low-light.yml', type=str,
+    parser.add_argument("--config", default='/home/ubuntu/Low/configs/low-light.yml', type=str,
                         help="Path to the config file")
-    parser.add_argument('--resume', default='/home/ubuntu/Low-df/low-df/应该上传/real/LOL-v2-Real.pth.tar', type=str,
-                        help='Path for the diffusion model checkpoint to load for evaluation')
+    parser.add_argument('--resume', default='/home/ubuntu/Low/real/LOL-v2-Real.pth.tar', type=str,
+                        help='Path for the checkpoint to load for evaluation')
     parser.add_argument("--sampling_timesteps", type=int, default=10,
                         help="Number of implicit sampling steps")
-    parser.add_argument("--image_folder", default='/home/ubuntu/Low-df/low-df/ACMMM简洁文件copy/result2', type=str,
+    parser.add_argument("--image_folder", default='', type=str,
                         help="Location to save restored images")
     parser.add_argument('--seed', default=20826, type=int, metavar='N',
-                        help='Seed for initializing training (default: 230)')
-    parser.add_argument('--mode', default='test', type=str, metavar='N',
-                        help='Seed for initializing training (default: 20826)')
-    parser.add_argument('--use_kind_align', default='false', type=str, metavar='N',
-                        help='Seed for initializing training (default: 20826)')
+                        help='Seed for initializing training')
+    parser.add_argument('--mode', default='test', type=str, metavar='N')
+    parser.add_argument('--use_kind_align', default='false', type=str, metavar='N')
     args = parser.parse_args()
 
     with open(os.path.join("configs", args.config), "r") as f:
