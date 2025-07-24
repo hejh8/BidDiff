@@ -2,7 +2,7 @@
 
 ## Over-all-Architecture
 This is the official implementation code for [Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement]().
-![Over-all-Architecture](https://github.com/user-attachments/assets/e73e3d11-9b35-4363-a066-d399701414f2)
+![Over-all-Architecture](https://github.com/hejh8/BidDiff/blob/main/Fig1.png)
 
 ## How to Run the Code?
 
