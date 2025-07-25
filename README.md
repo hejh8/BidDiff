@@ -32,6 +32,7 @@ You can refer to the following links to download the datasets.
 - [LOLv2](https://github.com/flyywh/CVPR-2020-Semi-Low-Light)
 
 ## Test
+Download the [pretrained model](https://drive.google.com/drive/folders/1IAGuhxQVhtRD-PdYeRkItzQ3n0szrz9U)
 You need to modify ```dataset.py and config``` slightly for your environment, and then
 ```python test.py ```
 
