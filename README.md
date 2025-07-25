@@ -1,7 +1,7 @@
-[(ACM MM 2025)] Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement[Paper]()
+[(ACM MM 2025)] Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement[Paper](https://arxiv.org/abs/2507.18144)
 
 ## Over-all-Architecture
-This is the official implementation code for [Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement]().
+This is the official implementation code for [Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement](https://arxiv.org/abs/2507.18144).
 ![Over-all-Architecture](https://github.com/hejh8/BidDiff/blob/main/Fig1.png)
 
 ## How to Run the Code?
@@ -41,5 +41,13 @@ This repo is based on [WeatherDiff](https://github.com/IGITUGraz/WeatherDiffusio
 
 ## Citation Information
 If you find the project useful, please cite:  
-
+@misc{he2025degradation,
+      title={Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement}, 
+      author={Jinhong He and Minglong Xue and Zhipu Liu and Mingliang Zhou and Aoxiang Ning and Palaiahnakote Shivakumara},
+      year={2025},
+      eprint={2507.18144},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2507.18144}, 
+}
 ```bibtex  
