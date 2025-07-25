@@ -41,7 +41,8 @@ This repo is based on [WeatherDiff](https://github.com/IGITUGraz/WeatherDiffusio
 
 ## Citation Information
 If you find the project useful, please cite:  
-@misc{he2025degradation,
+```
+@misc{he2025degradationconsistentlearningbidirectionaldiffusion,
       title={Degradation-Consistent Learning via Bidirectional Diffusion for Low-Light Image Enhancement}, 
       author={Jinhong He and Minglong Xue and Zhipu Liu and Mingliang Zhou and Aoxiang Ning and Palaiahnakote Shivakumara},
       year={2025},
@@ -50,4 +51,4 @@ If you find the project useful, please cite:
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2507.18144}, 
 }
-```bibtex  
+```
